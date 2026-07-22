@@ -4,7 +4,7 @@ kind: Deployment
 metadata:
   name: hotstar-deployment
 spec:
-  replicas: 2
+  replicas: 5
   strategy:
     type: RollingUpdate
   selector:
