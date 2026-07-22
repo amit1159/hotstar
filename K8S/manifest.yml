@@ -17,9 +17,9 @@ spec:
     spec:
       containers:
       - name: hotstar-container
-        image: amit1159/hotstar
+        image: nginx
         ports:
-        - containerPort: 3000
+        - containerPort: 80
 ---
 apiVersion: v1
 kind: Service
